@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin:10px;
+    padding: 10px;
+    background-image: url('Foto\ fundo.png');
+
+    
+    background-size: cover;
+
+    /* Centraliza a imagem */
+    background-position: center;
+
+    /* Impede que a imagem se repita */
+    background-repeat: no-repeat;
+
+    /* Mantém a imagem fixa ao rolar a página (opcional) */
+    background-attachment: fixed;
+}
+
+
+.topo{
+    color: #eb1717;
+    text-decoration: none;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    background-color: #36e659;
+    border: solid 1px #000;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    z-index: 1000;
+    }
+
+    .menu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    justify-content: space-around
+    }
+
+
+#sobre-mim {
+    color: rgb(5, 41, 241);
+    font-family: Arial, sans-serif;
+}
+
+img {
+    display: flex;
+    margin: 0 auto;
+    }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black; 
+}
+
+th, td {
+  padding: 10px; 
+  text-align: left;
+}
+
+footer {
+    text-align: center;
+}
+
+#direitos {
+   
+    color: #acd00d;
+    
+}
